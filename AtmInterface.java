@@ -102,7 +102,7 @@ class ATM {
 
 public class AtmInterface {
     public static void main(String[] args) {
-        BankAccount account = new BankAccount(100);  // Initial balance of $100
+        BankAccount account = new BankAccount(100);  
         ATM atm = new ATM(account);
         atm.run();
     }
